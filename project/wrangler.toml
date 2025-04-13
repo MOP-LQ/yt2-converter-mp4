@@ -1,6 +1,5 @@
-name = "your-worker-name"
+name = "yt2-converter-mp4"
 compatibility_date = "2025-04-13"
 
 [site]
-bucket = "./dist"  # 或你实际的资源目录路径
-entry-point = "workers-site"  # 可选
+bucket = "./public"  # 指向您的静态资源目录
