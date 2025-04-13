@@ -1,6 +1,6 @@
 name = "yt2-converter-mp4"
 compatibility_date = "2025-04-13"
+main = "src/index.js"
 
 [site]
-bucket = "./"  # 使用项目根目录
-entry-point = "workers-site"
+bucket = "./"
