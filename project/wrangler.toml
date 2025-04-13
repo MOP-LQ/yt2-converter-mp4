@@ -1,7 +1,6 @@
-{
-  "name": "your-worker-name",
-  "compatibility_date": "2025-04-13",
-  "assets": {
-    "directory": "./dist" 
-  }
-}
+name = "your-worker-name"
+compatibility_date = "2025-04-13"
+
+[site]
+bucket = "./dist"  # 或你实际的资源目录路径
+entry-point = "workers-site"  # 可选
